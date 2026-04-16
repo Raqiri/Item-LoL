@@ -1,12 +1,3 @@
-class itemDefault:
-    def __init__(self):
-        self.name = ""
-        self.effect = ""
-        self.effectValue = 0
-        self.description = ""
-    def useItem(self, player):
-        pass
-
 # 1. Infinity Edge
 class infinityEdge(itemDefault):
     def __init__(self):
